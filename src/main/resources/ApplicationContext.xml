@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="musicBean"
+          class="kz.iitu.itse1902.muhamedi.DeepHouseMusic">
+    </bean>
+
+    <bean id="chillPopBean" class="kz.iitu.itse1902.muhamedi.ChillPopMusic"></bean>
+
+<!--    <bean id="musicPlayer"-->
+<!--          class="kz.iitu.itse1902.muhamedi.MusicPlayer">-->
+<!--        <constructor-arg ref="musicBean"/>-->
+<!--    </bean>-->
+
+</beans>
