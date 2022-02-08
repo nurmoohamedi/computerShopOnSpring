@@ -1,4 +1,4 @@
-package kz.iitu.itse1902.muhamedi;
+package kz.iitu.itse1902.muhamedi.other;
 
 import org.springframework.stereotype.Component;
 

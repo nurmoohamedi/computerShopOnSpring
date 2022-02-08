@@ -1,37 +1,38 @@
-# Course Project Topic - Travel Agency  
+# Course Project Topic - Computer Shop / TechStore  
 
 <kbd>GitHub</kbd>
 [GitHub](https://github.com/nurmoohamedi/travelServiceOnSpring)
 - - - -
 
 ## Description
+This Computer Store project is aimed to creating service for selling and helping purposes.
+The idea of the project is to create a simple and efficient website to help customers
+assemble the best, powerful and high-quality, latest-model computers.
 
-This project is aimed to creating service for Travelling purposes. 
-
-Project's idea is make simple and effective website and to act as an agent, selling travel products and services on behalf of a supplier.
-
-
-**Functionalities:**
+###Functionalities:
 
 * Provide information and expertise
 * Recommend destinations, products and services best suited to the needs of the client
 * Establish good relationship with clients and vendors.
 
 
-**There’s  two roles:**
-* User
-    * book airline tickets
-    * book a tour
-    * deliver airline tickets
-    * pay travel agent
-
-
+###There’s three types of users/roles:
+* Client
+    * purchase
+    * make an order
+    * consultation
+  
 * Admin
   * Site management
-  *	Technical suport
-  *	Manage site content
+  * Technical suport
+  * Manage site content
+  
+* Dealer
+  * manage data
+  * accept orders
+  
 
-Endpoints of user:
+### Endpoints of user:
 
 * User can create account if he is new in this site;
 * User can update informations and manage;
@@ -42,6 +43,6 @@ Endpoints of user:
 * See all information about service, travel places;
 
 
-**Use-case/class diagrams:**
+### Use-case/class diagrams:
 
-![umlDiagram.png](umlDiagram.png)
+![UML](uml.png)

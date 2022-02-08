@@ -8,13 +8,11 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
 
     <bean id="musicBean"
-          class="kz.iitu.itse1902.muhamedi.DeepHouseMusic">
+          class="kz.iitu.itse1902.muhamedi.other.DeepHouseMusic">
     </bean>
 
-    <bean id="chillPopBean" class="kz.iitu.itse1902.muhamedi.ChillPopMusic"></bean>
-
 <!--    <bean id="musicPlayer"-->
-<!--          class="kz.iitu.itse1902.muhamedi.MusicPlayer">-->
+<!--          class="kz.iitu.itse1902.muhamedi.other.MusicPlayer">-->
 <!--        <constructor-arg ref="musicBean"/>-->
 <!--    </bean>-->
 

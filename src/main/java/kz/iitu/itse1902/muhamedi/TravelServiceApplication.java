@@ -1,26 +1,20 @@
 package kz.iitu.itse1902.muhamedi;
-import org.springframework.boot.SpringApplication;
+import kz.iitu.itse1902.muhamedi.config.RepositoryConfig;
+import kz.iitu.itse1902.muhamedi.repository.Repository;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.GenericApplicationContext;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "kz.iitu.itse1902.muhamedi.repository")
 public class TravelServiceApplication {
 
-    static ApplicationContext context;
-
-    public static void main(String[] args) {
-
-        context = SpringApplication.run(TravelServiceApplication.class, args);
-
-//        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
-//                "ApplicationContext.xml"
-//        );
-
-        MusicPlayer musicPlayer = context.getBean( MusicPlayer.class);
-
-        musicPlayer.playMusic();
-
-    }
+//    public static void main(String[] args) {
+////        GenericApplicationContext context = new AnnotationConfigApplicationContext(.class, RepositoryConfig.MouseConfig.class);
+//
+//        Repository repository = context.getBean("repository", Repository.class);
+//
+//        repository.getAll().forEach(m-> System.out.println(m.toString()));
+//
+//    }
 
 }
