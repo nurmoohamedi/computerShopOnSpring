@@ -9,14 +9,14 @@ This Computer Store project is aimed to creating service for selling and helping
 The idea of the project is to create a simple and efficient website to help customers
 assemble the best, powerful and high-quality, latest-model computers.
 
-###Functionalities:
+### Functionalities:
 
 * Provide information and expertise
 * Recommend destinations, products and services best suited to the needs of the client
 * Establish good relationship with clients and vendors.
 
 
-###There’s three types of users/roles:
+### There’s three types of users/roles:
 * Client
     * purchase
     * make an order
